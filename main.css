@@ -1,0 +1,65 @@
+	<style>
+		
+		body{
+			background-color: rgb(240,245,243);
+
+		}
+		.title{
+			font-size: 70px;
+			color: palevioletred;
+			font-weight: bold;
+			font-family: 'Merriweather', serif;
+			margin: auto;
+			text-align: center;
+		}
+		.background{
+			width: 363px;
+			margin: auto;
+			background-color: darkgrey;
+			padding: 8px 8px;
+			border-radius: .6rem;
+
+
+		}
+		#result{
+
+			width: 340px;
+			border-radius: .25rem;
+			border-style: solid;
+			border-width: 1.5px;
+			border-color: lightgray;
+			padding: .5rem .75rem;
+			margin-bottom: 10px;
+			margin-left: 3px;
+
+
+		}
+		.btn{
+
+			width: 50px;
+			height: 40px;
+			background-color: lightgrey;
+			border-style: solid;
+			border-radius: .25rem;
+			margin: 3px;
+
+		}
+
+		.op{
+			background-color: lightblue;
+
+		}
+
+		.cal{
+			width: 165px;
+			background-color: wheat;
+		}
+
+		.delet{
+			background-color: lightcoral;
+			color: white;
+		}
+
+
+
+	</style>

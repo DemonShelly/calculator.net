@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type='text/css' href="main.css">
+    
+</head>
+<body bgcolor="#ccccff">
+	<p class="title">Calculator</p>
+	<div class="background">
+	<form name="calc">
+	<table align="center">
+		<tr>
+			<td colspan="25"><input type="text" name='result' id='result' value="_"></td>
+		</tr>
+		<tr>
+			<td><input type="button" id="7" value="7" class="btn" onclick='show(this.value)'></td>
+			<td><input type="button" id="8" value="8" class="btn" onclick='show(this.value)'></td>
+			<td><input type="button" id="9" value="9" class="btn" onclick='show(this.value)'></td>
+			<td><input type="button" id="CE" value="←" class="btn delet" onclick='back()'></td>
+			<td><input type="button" id="clear" value="C" class="btn delet" onclick='clearAll()'></td>
+			<td><input type="button" id="sin" value="sin" class="btn op" onclick="MathSin()"></td>
+
+		</tr>
+		<tr>
+			
+			<td><input type="button" id="4" value="4" class="btn" onclick='show(this.value)'></td>
+			<td><input type="button" id="5" value="5" class="btn" onclick='show(this.value)'></td>
+			<td><input type="button" id="6" value="6" class="btn" onclick='show(this.value)'></td>
+			<td><input type="button" id="mul" value="*" class="btn op" onclick='operation(this.value)'></td>
+			<td><input type="button" id="sub" value="/" class="btn op" onclick='operation(this.value)' ></td>
+			<td><input type="button" id="cos" value="cos" class="btn op" onclick="MathCos()"></td>
+
+		</tr>
+		<tr>
+			<td><input type="button" id="1" value="1" class="btn" onclick='show(this.value)'></td>
+			<td><input type="button" id="2" value="2" class="btn" onclick='show(this.value)'></td>
+			<td><input type="button" id="3" value="3" class="btn" onclick='show(this.value)'></td>
+			<td><input type="button" id="plus" value="+" class="btn op" onclick='operation(this.value)'></td>
+			<td><input type="button" id="less" value="-" class="btn op" onclick='operation(this.value)'></td>
+			<td><input type="button" id="tan" value="tan" class="btn op" onclick="MathTan()"></td>
+
+		</tr>
+
+			<td><input type="button" id="0" value="0" class="btn" onclick='show(this.value)'></td>
+			<td><input type="button" id="." value="." class="btn" onclick='dot(this.value)'></td>
+			<td colspan="3"><input type="button" id="calculate" value="=" class="btn cal" onclick='operation(this.value)'></td>
+			<td><input type="button" id="sqrt" value="sqrt" class="btn op" onclick="MathSqrt()"></td>
+
+	</table>
+	</form>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="main.js"></script>
