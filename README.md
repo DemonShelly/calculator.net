@@ -1,4 +1,4 @@
-# calculator.net
+# Calculator／簡易計算機
 
 ## Demo
 https://demonshelly.github.io/calculator.net/
